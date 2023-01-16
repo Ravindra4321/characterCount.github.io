@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Work Sans', sans-serif;
+}
+html{
+    color:purple;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+}
+
+.container{
+    padding: 30px;
+    margin-top:100px ;
+}
+
+h2{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -0.3px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+max-width: 650px;
+text-align: center;
+margin-top: 20px ;
+margin-bottom: 100px;
+}
+
+textarea{
+    width: 100%;
+    height: 320px;
+    padding: 18px;
+    position: relative;
+    resize:none;
+    box-shadow: 0 5px 15px 0px cornflowerblue;
+    border: 0.5px solid white;
+    border-radius: 18px;
+    background-color: white;
+}
+
+textarea:focus{
+    border: 0.3px solid rgba(43 45 46 0.4);
+}
+p,textarea{
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+button{
+    background-color:cornflowerblue;
+    color: ghostwhite;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 16px 32px;
+    border: none;
+    letter-spacing: 1px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top:-70px ;
+    cursor: pointer;
+}
+
+button:focus,
+button:hover{
+    background-color: #c71585;
+    box-shadow: 0.5px 30px 0 rgba(0 0 0 0.1);
+    
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 10px 0 10px;
+}

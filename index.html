@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Count Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Real Time Character Counter</h2>
+        <p>Cheak your english  text for grammer spelling mistake and how many number of Character.</p>
+
+        <textarea  id="textarea" class="textarea" maxlength="400" placeholder="Please Write and Check your Character"></textarea>
+        <button onclick="copyText()">Copy Text</button>
+        <div class="counter-container">
+            <p>Total count Character:<span id="total-counter">0</span></p>
+            <p>Remaning Character:<span id="Remaning-counter">400</span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
